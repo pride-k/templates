@@ -1,3 +1,8 @@
+//  But we were something, don't you think so?
+//  Roaring 20s, tossing pennies in the pool
+//  And if my wishes came true
+//  It would've been you
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -7,7 +12,7 @@ const ll INF = ll(4e18) + 5;
 const char nl = '\n';
 
 #ifdef DEBUG 
-#include "/home/piyush/cpp_template_library/debug.cpp" 
+#include "/home/piyush/cpp_template_library/template/debug.cpp" 
 #else
 #define dbg(...)
 #endif
