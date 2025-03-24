@@ -1,5 +1,3 @@
-
-
 template <typename A, typename B>
 string to_string(pair<A, B> p);
 
@@ -82,10 +80,8 @@ void debug_out(Head H, Tail... T) {
   debug_out(T...);
 }
 
-#ifdef LOCAL
-#define debug(...) cerr << "[" << #__VA_ARGS__ << "]:", debug_out(__VA_ARGS__)
+#ifdef DEBUG 
+#define dbg(...) cerr << "\e[91m[" << __LINE__ << "]\t" << #__VA_ARGS__ << ":", debug_out(__VA_ARGS__), cerr << "\e[39m"
 #else
-#define debug(...) 42
+#define dbg(...) 
 #endif
-
-

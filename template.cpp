@@ -7,7 +7,7 @@ const ll INF = ll(4e18) + 5;
 const char nl = '\n';
 
 #ifdef DEBUG 
-#include "/home/dbg/debug.cpp" 
+#include "/home/piyush/cpp_template_library/debug.cpp" 
 #else
 #define dbg(...)
 #endif
@@ -22,7 +22,6 @@ void solve(){
     for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
-    
     
     
     cout << nl;
