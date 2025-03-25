@@ -1,8 +1,3 @@
-//  But we were something, don't you think so?
-//  Roaring 20s, tossing pennies in the pool
-//  And if my wishes came true
-//  It would've been you
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -44,9 +39,5 @@ signed main() {
     }
     return 0;
 }
-
-
-
-
 
 

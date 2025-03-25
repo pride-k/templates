@@ -1,4 +1,7 @@
 
+//	https://github.com/the-tourist/algo/
+//	https://github.com/p1k4-piyush/templates/
+
 
 struct custom_hash {
     static uint64_t splitmix64(uint64_t x) {
