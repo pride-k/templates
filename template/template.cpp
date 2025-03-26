@@ -6,7 +6,7 @@ typedef int64_t ll;
 const ll INF = ll(4e18) + 5;
 const char nl = '\n';
 
-#ifdef DEBUG 
+#ifdef PIKA 
 #include "/home/piyush/cpp_template_library/template/debug.cpp" 
 #else
 #define dbg(...)
