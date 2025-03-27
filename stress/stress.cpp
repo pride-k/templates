@@ -35,11 +35,11 @@ int main(int argc, char* argv[]) {
     string bruteBinary = getBinaryName(bruteSource);
     string solBinary = getBinaryName(solSource);
 
-    string compileGen = " g++ -std=c++23 -O3 -Wextra -Wconversion -DDEBUG -Wshadow -Wall -DPIKA -fsanitize=undefined,address " + genSource + " -o " + genBinary;
+    string compileGen = " g++ -std=c++23 -O3 -fsanitize=undefined,address " + genSource + " -o " + genBinary;
     
-    string compileBrute = "g++ -std=c++23 -O3 -Wextra -Wconversion -DDEBUG -Wshadow -Wall -DPIKA -fsanitize=undefined,address " + bruteSource + " -o " + bruteBinary;
+    string compileBrute = "g++ -std=c++23 -O3 -fsanitize=undefined,address " + bruteSource + " -o " + bruteBinary;
 
-    string compileSol = "g++ -std=c++23 -O3 -Wextra -Wconversion -DDEBUG -Wshadow -Wall -DPIKA -fsanitize=undefined,address " + solSource + " -o " + solBinary;
+    string compileSol = "g++ -std=c++23 -O3 -fsanitize=undefined,address " + solSource + " -o " + solBinary;
 
 
     if (system(compileGen.c_str()) != 0) {
